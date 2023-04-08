@@ -1,2 +1,2 @@
 # HACK-NCSTATE
-A very very cool prtojnect 
+A very very cool project
