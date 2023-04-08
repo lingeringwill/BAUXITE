@@ -1,10 +1,11 @@
-from flask import Blueprint
-from flask import render_template
+from flask import Blueprint, render_template, url_for
 
-views = Blueprint('views',__name__)
+views = Blueprint(__name__, 'views')
 
 @views.route("/")
-
 def home():
-    return "Hello there!"
-    
+    return render_template("homepage.html")
+
+@views.route("/input")
+def input():
+    return render_template("input.html")
