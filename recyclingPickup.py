@@ -11,6 +11,13 @@ def smallMeatyClaws():
     s_width = 1000
     s_height = 700
     screen = pygame.display.set_mode((s_width, s_height))
+    
+# Background sound
+mixer.music.load('background.mp3')
+mixer.music.play(-1)
+# Music from #Uppbeat (free for Creators!):
+# https://uppbeat.io/t/moire/space-ranger
+# License code: LEUQNRUDIRCKIGFR
 
 
     pygame.display.set_caption("Drive to Recycle!")
