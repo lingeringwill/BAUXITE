@@ -16,3 +16,5 @@ koustubhk. (n.d.). Mismanaged plastic waste around the world. Retrieved April 8,
 NYC Recycling Diversion and Capture Rates. (n.d.). NYC Recycling Diversion and Capture Rates | Kaggle. https:///datasets/new-york-city/nyc-recycling-diversion-and-capture-rates
 
 WaRP - Waste Recycling Plant Dataset. (n.d.). WaRP - Waste Recycling Plant Dataset | Kaggle. https:///datasets/parohod/warp-waste-recycling-plant-dataset
+
+Turner, A. and Gomez, D. (Nov. 6, 2020). A vaporwave CSS framework | Github. https://github.com/torch2424/aesthetic-css
