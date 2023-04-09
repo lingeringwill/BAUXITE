@@ -5,7 +5,11 @@ app = Flask(__name__)
   
 @app.route('/')  
 def main():  
-    return render_template("index.html")  
+    return render_template("homepage.html")
+
+@app.route("/input")
+def input():
+    return render_template("input.html")
   
 @app.route('/success', methods = ['POST'])  
 def success():  
