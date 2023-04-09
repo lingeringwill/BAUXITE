@@ -11,13 +11,6 @@ def smallMeatyClaws():
     s_width = 1000
     s_height = 700
     screen = pygame.display.set_mode((s_width, s_height))
-    
-# Background sound
-mixer.music.load('background.mp3')
-mixer.music.play(-1)
-# Music from #Uppbeat (free for Creators!):
-# https://uppbeat.io/t/moire/space-ranger
-# License code: LEUQNRUDIRCKIGFR
 
 
     pygame.display.set_caption("Drive to Recycle!")
@@ -96,9 +89,9 @@ mixer.music.play(-1)
                 pygame.draw.rect(screen, (0,255,0), (self.x, self.y + self.truck_img.get_height()+10, self.truck_img.get_width() * (self.health/self.max_health), 10))
 
 
-    # Sound
-    #mixer.music.load('Arcane_Battle.ogg.mp3')
-    #mixer.music.play(-1)
+    
+    mixer.music.load('static/background.mp3')
+    mixer.music.play(-1)
 
     def collide(obj1, obj2):
         offset_x = obj2.x - obj1.x
