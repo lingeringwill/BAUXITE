@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload - Bauxite</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/aesthetic.css">
+</head>
+
+<body class="aesthetic-bg-gradient">
+
+    <div class="aesthetic-windows-95-container" style="width: 1200px; height: 150px; position: absolute; left: 50%; transform: translate(-50%, 0%); box-shadow: 5px 5px 0 0 #0000004e;">
+        <div class="aesthetic-font aesthetic-font-modifier-outline-purple" style="position: absolute; background-color: #91e4ff; width: 1200px; height: 150px;">
+            <h1 style="transform: translate(50%, 25%); width: 50%; text-align: center; font-size: 300%;" class="aesthetic-effect-text-glitch" data-glitch="Image Upload">Image Upload</h1>
+        </div>
+    </div>
+
+    <div style="position: relative; height: 825px;">
+        <div style="position: absolute; top: 75%; left: 50%; transform: translate(-50%, 125%); width: 500px; height: 50px;">
+
+            <div style="transform: translate(-50%, -1125%);">
+                <div class="aesthetic-windows-95-button" style="width: 150px; height: 50px;">
+                    <div class="aesthetic-font aesthetic-font-modifier-outline-black" style="background-color: #ffbdec; width: 150px; height: 50px; font-size: larger;">
+                        <button class="aesthetic-font-modifier-outline-black" style="width: 150px; height: 50px;" onclick="location.href='/';">
+                            Home
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aesthetic-windows-95-container" style="width: 600px; height: 150px; position: absolute; left: 50%; transform: translate(-50%, -75%); box-shadow: 5px 5px 0 0 #0000004e;">
+                <div class="aesthetic-font aesthetic-font-modifier-outline-purple" style="position: absolute; background-color: #ffbdec; width: 600px; height: 150px;">
+                    <div style="transform: translate(25%, 250%);">
+                        <form action = "/success" method = "post" enctype="multipart/form-data">
+                            <input type="file" name="file" />  
+                            <input type = "submit" value="Upload"/>  
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
