@@ -1,7 +1,7 @@
 # HACK-NCSTATE
 A very very cool project
 
-Welcome to our recycling game/object detection repository!
+Welcome to our recycling game/object detection repository, Bauxite!
 
 This repository contains a Pygame-based game that allows players to drive a truck and collect recyclables while avoiding obstacles. In addition to the game, this project also includes an object detection feature that uses OpenCV, Tkinter, and YOLOv5 to recognize and classify recyclable items in images taken from a user's computer. The detected recyclables are then stored on a Flask-based website, where users can track their progress and earn extra perks in the game based on the number of recyclables they upload.
 
